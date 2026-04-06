@@ -1,17 +1,17 @@
 {
   "keywords": {
     "oi, opa, ola, salve": {
-      "texto": "Opa, de boa?; Em que posso ajudar?; Salve, programador!",
-      "codigo": "console.log('User iniciou interação');"
+      "texto": "Opa, de boa?; Em que posso ajudar?; Em que você precisa de ajuda?",
+      "codigo": "The bot responded to the user with a random message. ;"
     },
-    "economia, eco, money": {
-      "texto": "Gerencie saldos com a Ndj-lib.; O módulo de economia está online.",
-      "codigo": "const { Economy } = require('ndj-lib');"
+    "ajuda, help, me ajuda": {
+      "texto": "Em que posso ajudar?",
+      "codigo": "The bot asked the user how it could help."
     },
-    "bot, djs, discord": {
-      "texto": "Precisa de um código base?; Gerando boilerplate para seu bot...",
-      "codigo": "const { EasyBot } = require('easy-djs-bot');"
+    "GhostOS, WebOS, Sistema, Core": {
+      "texto": "O GhostOS roda por cima do HTML e é seu OS atual",
+      "codigo": "The bot responded to the user in a generic way. "
     }
   },
-  "fallback": "Não entendi sua dúvida.; Tente perguntar sobre economia ou bots.; Erro de sintaxe no meu banco, tente de novo!"
+  "fallback": "Não entendi sua dúvida.; Erro 404. Tente novamente mais tarde; Erro de sintaxe no meu banco, tente de novo!"
 }
