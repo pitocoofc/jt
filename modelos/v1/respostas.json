@@ -1,10 +1,10 @@
 {
-  "keywords": [
-    {
-      "match": ["oi", "olá", "opa", "eae"],
-      "texto": "Olá!!! Como vai?",
-      "codigo": "resposta_padrao"
+  "saudacoes": ["E aí, tranquilo?", "Opa! Como posso te ajudar?", "Salve, sou a Ndj-AI!"],
+  "fallback": ["Vish, essa eu não manjo.", "Pode repetir? Não entendi.", "Ainda estou aprendendo sobre isso..."],
+  "keywords": {
+    "javascript": {
+      "texto": ["JS é a melhor linguagem!", "Aqui está um exemplo de script em JavaScript:"],
+      "codigo": "console.log('Hello World');"
     }
-  ],
-  "fallback": "Não entendi."
+  }
 }
