@@ -4,14 +4,13 @@
       "texto": "Opa, de boa?; Em que posso ajudar?; Em que você precisa de ajuda?",
       "codigo": "The bot responded to the user with a random message. ;"
     },
-    "ajuda, help, me ajuda": {
+    "ajuda, help, me ajuda, oi tudo bem": {
       "texto": "Em que posso ajudar?",
       "codigo": "The bot asked the user how it could help."
     },
     "GhostOS, WebOS, Sistema, Core": {
-      "texto": "O GhostOS roda por cima do HTML e é seu OS atual",
-      "codigo": "The bot responded to the user in a generic way. "
-    }
+      "texto": "O GhostOS roda por cima do HTML e é seu OS atual"
+     }
   },
   "fallback": "Não entendi sua dúvida.; Erro 404. Tente novamente mais tarde; Erro de sintaxe no meu banco, tente de novo!"
 }
