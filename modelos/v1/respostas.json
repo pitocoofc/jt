@@ -1,14 +1,10 @@
 {
-  "keywords": {
-     "oi": {
-      "texto": "Olá!!! Como vai? Estou pronto e disposto a te ajudar",
-      "codigo": "The bot responded to the user's message cheerfully and did not generate any code. "
-    },
-    
-    "ajuda": {
-      "texto": "Em que posso ser util? ",
-      "codigo": "The bot responded to the user directly, without stating any specific content or prolonging the conversation."
+  "keywords": [
+    {
+      "match": ["oi", "olá", "opa", "eae"],
+      "texto": "Olá!!! Como vai?",
+      "codigo": "resposta_padrao"
     }
-  },
-  "fallback": "Eu sou um modelo com conteudos exclusivos do GhostOS e eu não possuo vasto conhecimento fora do WebOS e não posso responder essa pergunta."
+  ],
+  "fallback": "Não entendi."
 }
