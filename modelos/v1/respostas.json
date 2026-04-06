@@ -1,10 +1,17 @@
 {
-  "saudacoes": ["E aí, tranquilo?", "Opa! Como posso te ajudar?", "Salve, sou a Ndj-AI!"],
-  "fallback": ["Vish, essa eu não manjo.", "Pode repetir? Não entendi.", "Ainda estou aprendendo sobre isso..."],
   "keywords": {
-    "javascript": {
-      "texto": ["JS é a melhor linguagem!", "Aqui está um exemplo de script em JavaScript:"],
-      "codigo": "console.log('Hello World');"
+    "oi, opa, ola, salve": {
+      "texto": "Opa, de boa?; Em que posso ajudar?; Salve, programador!",
+      "codigo": "console.log('User iniciou interação');"
+    },
+    "economia, eco, money": {
+      "texto": "Gerencie saldos com a Ndj-lib.; O módulo de economia está online.",
+      "codigo": "const { Economy } = require('ndj-lib');"
+    },
+    "bot, djs, discord": {
+      "texto": "Precisa de um código base?; Gerando boilerplate para seu bot...",
+      "codigo": "const { EasyBot } = require('easy-djs-bot');"
     }
-  }
+  },
+  "fallback": "Não entendi sua dúvida.; Tente perguntar sobre economia ou bots.; Erro de sintaxe no meu banco, tente de novo!"
 }
