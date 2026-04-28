@@ -8,6 +8,10 @@
       "texto": "Em que posso ajudar?",
       "codigo": "The bot asked the user how it could help."
     },
+    "suave, tudo bem, tudo ok, como você está": {
+      "texto": "To suave",
+      "codigo": "The bot asked the user how it could help."
+    },
     "GhostOS, WebOS, Sistema, Core": {
       "texto": "O GhostOS roda por cima do HTML e é seu OS atual"
      }
